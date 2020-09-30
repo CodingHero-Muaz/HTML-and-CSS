@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Forms</title>
+<style>
+body{
+background-color:red;
+}
+.Forms{
+border:5px blue outset;
+padding:20px;
+background-color:lightblue;
+font-family:cursive;
+text-align:center;
+font-size:24px;
+}
+</style>
+</head>
+
+<body>
+<div class="Forms">
+<form action="/action_page.php" onsubmit="alert("Thanks for trying my quiz")">
+<fieldset>
+<legend><b>Name</b></legend><br>
+<label for="fname">First Name</label><br>
+<input type="text" id="iname" value="!Required field!"><br><br>
+<label for="sname">Second Name</label><br>
+<input type="text" id="iname1" value="!Required field!"><br><br>
+</fieldset>
+<fieldset>
+<legend><b>Age</b></legend><br>
+<label for="age">What is your age?</label><br>
+<input type="text" id="age1" value="!Required field!"><br><br>
+</fieldset>
+<fieldset>
+<legend><b>Birth date</b></legend><br>
+<label for="birthday">What is your date of birth?</label><br>
+<p>Write it in this format: mm/dd/yyyy</p>
+<input type="text" id="birth" value="!Required field!"><br><br>
+</fieldset>
+<fieldset>
+<legend><b>Gender</b></legend><br>
+<input type="radio" id="male" name="gender" value="!Required field!">
+<label for="male">Male</label>&nbsp;&nbsp;
+
+<input type="radio" id="Female" name="gender" value="!Required field!">
+<label for="female">Female</label>&nbsp;&nbsp;
+
+<input type="radio" id="Others" name="gender" value="!Required field!">
+<label for="other">Others</label>&nbsp;&nbsp;<br><br>
+</fieldset>
+<fieldset>
+<legend><b>Select the class</b></legend><br>
+<input type="checkbox" id="c4" name="class4" value="!Required field!">
+<label for="ClassF">4th grade</label><br>
+
+<input type="checkbox" id="c5" name="class5" value="!Required field!">
+<label for="Class5">5th grade</label><br>
+
+<input type="checkbox" id="c6" name="class6" value="!Required field!">
+<label for="ClassS">6th grade</label><br>
+</fieldset>
+
+<fieldset>
+<legend><b>Countries</b></legend><br>
+<label for="Countries">What is your country?</label><br>
+<select>
+<option value="Sri lanka">Sri lanka</option>
+<option value="India">India</option>
+<option value="Pakistan">Pakistan</option>
+<option value="US">US</option>
+<option value="UK">UK</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Australia">Australia</option>
+<option value="Phillipine">Phillipine</option>
+</select>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+<div>
+</body>
+
+</html>
